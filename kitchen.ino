@@ -7,13 +7,12 @@ RCSwitch mySwitch = RCSwitch();
 
 void setup() {
   Serial.begin(9600);
-  mySwitch.enableReceive(0);  // Receiver on interrupt 0 => that is pin #2
+  mySwitch.enableReceive(0);  // Receiver on interrupt (pin 2)
   pinMode(led, OUTPUT);
   pinMode(buzzbuzz, OUTPUT); 
 }
 
 void loop() {
-  //digitalWrite(8, HIGH);
   if (mySwitch.available()) {
 
     digitalWrite(led, HIGH);
