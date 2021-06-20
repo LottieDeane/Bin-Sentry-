@@ -1,2 +1,2 @@
 # Bin-Sentry-
-Opensource designs and code for the bin sentry
+Open source designs and code for the bin sentry
